@@ -4,12 +4,12 @@
 ###1.
    For write our name or something we want to see on compiler we may use this code:
 
-"Musa";
+    "Musa";
 
 ###2. 
 If you wanna count your name lenght write down
  
- document.write("musatoktas".lenght);
+ `document.write("musatoktas".lenght);`
  
 After write this code you will see 10 number because thatis letter lenght of "musatoktas" word
 
@@ -23,26 +23,26 @@ I you wanna see just result on preview screen just write numbers and function wh
 
 For write comment on javascript interreter you should use double slash like;
 
-"//"
+"`//`"
 
 ###5.
 
 if you wanna open little pop-up on the top of the screen you can use this code. For describe deeply thonk about some adv. sites. When you click on close button a white box pop-up on screen. I am trying to explain create that  box.
 
-confirm("something else"); 
+`confirm("something else");` 
 
 ###6.
 
 For input some datas from user by typing in that box which is I wrote above, you may use this code;
 
-prompt("Are You Sure?");
+    prompt("Are You Sure?");
 
 ###7.Booleans
 
 Booleans means Logical orders such as true, and false. 
 when you write something on interpreter and check its okay or not you can see result by using > or less than (<)
 
-###8. "console.log()" code
+###8. `"console.log()"` code
 
 Interpret doesn't print out everythink which is you write on it so developers constitudethis code. When you write some thing inside the parentheses it will be print out.
 
@@ -66,9 +66,9 @@ List of comparison operators:
 
 Just in case we need compare our how much letters in my name we can use that
 
-if ("musatoktas".length >= 7){ 
-	console.log("You have a long name!");
-}
+    if ("musatoktas".length >= 7){ 
+    	console.log("You have a long name!");
+    }
 
 ###11. Math
 
@@ -108,7 +108,7 @@ Substringging means is just show a smaller part of words. Some times we can't se
 
 Forexample you just wanna see between third letter and seventh letters of "world of the wars" sentence.  
 
-"world of the wars".substring(2,7);
+    "world of the wars".substring(2,7);
 
 ###13.Variables
 
