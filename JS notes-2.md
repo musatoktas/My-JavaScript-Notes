@@ -1,5 +1,5 @@
 ##JavaScript Notes##
-##### by M Deepst#####
+##### by Musa Toktas#####
 
 ###1.
    For write our name or something we want to see on compiler we may use this code:
