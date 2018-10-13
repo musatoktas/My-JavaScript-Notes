@@ -57,7 +57,7 @@ In other words, this function will not evaluate any HTML tags passed to it, but 
   });
 </script>  
 ```
-## Removing the elements
+## .remove() function
 Let's remove an HTML element from your page using jQuery.</br>
 
 jQuery has a function called .remove() that will remove an HTML element entirely
