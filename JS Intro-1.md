@@ -12,7 +12,7 @@ After write this code you will see 10 number because thatis letter lenght of "mu
 
 - You can use * for multiplication and / for division if you want. Enter another valid expression to pass this lesson.
 
-I you wanna see just result on preview screen just write numbers and function which one you want
+If you wanna see just result on preview screen just write numbers and function which one you want
 
 - For write comment on javascript interreter you should use double slash like;
 
