@@ -73,15 +73,16 @@ jQuery has a function called .remove() that will remove an HTML element entirely
     $("div").remove(".but-primary"); remove elements in divs that have ".but-primary" class
   });
 </script>  
-
+```
 ## .appendTo( ) function
 jQuery has a function called appendTo() that allows you to select HTML elements and append them to another element.
+```
 <script>
   $(document).ready(function() {
     $("#target2").appendTo("#right-well"); // "#target2" element append to "#right-well" id'ed div. 
   });
 </script>
-
+```
 ## .clone( ) function and function chaining
 jQuery has a function called clone() that makes a copy of an element.</br>
 ```
@@ -99,12 +100,13 @@ Every HTML element has a parent element from which it inherits properties.</br>
 For example, your jQuery Playground h3 element has the parent element of <div class="container-fluid">, which itself has the parent body.</br>
 
 jQuery has a function called parent() that allows you to access the parent of whichever element you've selected.</br>
+```
 <script>
   $(document).ready(function() {
     $("#target1").parent().css("background-color", "red"); //Give the parent of the #target1 element a background-color of red.
   });
 </script>
-
+```
 
 
 
