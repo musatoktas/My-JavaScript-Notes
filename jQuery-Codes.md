@@ -1,5 +1,8 @@
 # Jquery Code Samples
 It must be located at the top of the page, just below the ```<head>```  tag.</br>
+### Content
+- [.prop( )](#.prop(-))
+
 
 All samples gained from freecodecamp's jQuery tutorial. here is the <a href="https://learn.freecodecamp.org/front-end-libraries/jquery/">link</a>. I definetly recommend FreeCodeCamp. There are tons of different tut's both related back-en and front-end.
 ```
@@ -21,7 +24,7 @@ All samples gained from freecodecamp's jQuery tutorial. here is the <a href="htt
   });
 </script>
 ```
-## .prop( ) function
+## .prop( ) 
 You can change the non-CSS properties of HTML elements with jQuery. For example, you can disable buttons.</br>
 
 When you disable a button, it will become grayed-out and can no longer be clicked.</br>
@@ -34,7 +37,7 @@ jQuery has a function called .prop() that allows you to adjust the properties of
   });
 </script>
 ```
-## .html( ) and .text( ) function
+## .html( ) and .text( )
 Using jQuery, you can change the text between the start and end tags of an element. You can even change HTML markup.</br>
 
 jQuery has a function called .html() that lets you add HTML tags and text within an element.</br>
@@ -57,7 +60,7 @@ In other words, this function will not evaluate any HTML tags passed to it, but 
   });
 </script>  
 ```
-## .remove() function
+## .remove() 
 Let's remove an HTML element from your page using jQuery.</br>
 
 jQuery has a function called .remove() that will remove an HTML element entirely
@@ -74,7 +77,7 @@ jQuery has a function called .remove() that will remove an HTML element entirely
   });
 </script>  
 ```
-## .appendTo( ) function
+## .appendTo( )
 jQuery has a function called appendTo() that allows you to select HTML elements and append them to another element.
 ```
 <script>
@@ -83,7 +86,7 @@ jQuery has a function called appendTo() that allows you to select HTML elements 
   });
 </script>
 ```
-## .clone( ) function and function chaining
+## .clone( ) and function chaining
 jQuery has a function called clone() that makes a copy of an element.</br>
 ```
 <script>
@@ -94,7 +97,7 @@ jQuery has a function called clone() that makes a copy of an element.</br>
 ```
 Did you notice this involves sticking two jQuery functions together? This is called function chaining and it's a convenient way to get things done with jQuery.
 
-## .parent( ) function
+## .parent( )
 Every HTML element has a parent element from which it inherits properties.</br>
 
 For example, your jQuery Playground h3 element has the parent element of <div class="container-fluid">, which itself has the parent body.</br>
@@ -107,12 +110,35 @@ jQuery has a function called parent() that allows you to access the parent of wh
   });
 </script>
 ```
+## .children( )
+jQuery has a function called children() that allows you to access the children of whichever element you've selected.
+```
+<script>
+  $(document).ready(function() {
+    $("#right-well").children().css("color", "orange"); // Give all the children of your right-well element the color orange.
+  });
+</script>
+```
+## .target:nth-child( )
+jQuery uses CSS Selectors to target elements. The ```target:nth-child(n)``` CSS selector allows you to select all the nth elements with the target class or element type.
+```
+<script>
+  $(document).ready(function() {
+    $(".target:nth-child(2)").addClass("animated bounce"); //Make the second child in each of your well elements bounce. You must select the elements' children with the target class.
+  });
+</script>
+```
+## target full body
+We're done playing with our jQuery playground. Let's tear it down!</br>
 
-
-
-
-
-
+jQuery can target the body element as well.
+```
+<script>
+  $(document).ready(function() {
+    $("body").addClass("animated hinge"); //Add the classes animated and hinge to your body element.
+  });
+</script>
+```
 
 
 
