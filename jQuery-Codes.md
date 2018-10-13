@@ -1,7 +1,7 @@
 # Jquery Code Samples
 It must be located at the top of the page, just below the ```<head>```  tag.</br>
 ### Content
-- [.prop( )](#.prop(-))
+- [.prop( )](#.prop())
 
 
 All samples gained from freecodecamp's jQuery tutorial. here is the <a href="https://learn.freecodecamp.org/front-end-libraries/jquery/">link</a>. I definetly recommend FreeCodeCamp. There are tons of different tut's both related back-en and front-end.
@@ -24,7 +24,7 @@ All samples gained from freecodecamp's jQuery tutorial. here is the <a href="htt
   });
 </script>
 ```
-## .prop( ) 
+## .prop() 
 You can change the non-CSS properties of HTML elements with jQuery. For example, you can disable buttons.</br>
 
 When you disable a button, it will become grayed-out and can no longer be clicked.</br>
