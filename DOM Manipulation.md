@@ -1,4 +1,4 @@
-# Document Object Model
+# DOM (Document Object Model) Manipulation
 Note: create an Html file and link this js file before usage
 ```
 // DOM Manipulation
