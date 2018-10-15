@@ -16,7 +16,7 @@ example "HTML/CSS/JavaScript/Web Developer/Musa/Toktas"
 ## URL: Uniform Resource Locator
 
 # Http Methods
--GET
+- GET
    * Retrieves the resource
    * Data is passed to server as part of the URI
     - I.e., query string
